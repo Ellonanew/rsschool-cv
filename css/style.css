@@ -1,16 +1,86 @@
-.ava_img {
-    max-width: 30%;
+html {
+  font-family: "Arial", sans-serif;
+  font-stretch: extra-expanded;
 }
 
-.row {
-    background-color: #d6f1ff8c;
-    border-radius: 3px;
-}
-
-.rslink > img {
-    max-width: 30%;
+body {
+  background: linear-gradient(to bottom right, #fff 50%, #ffb62c 50%) fixed;
 }
 
 h2 {
-    color: #7cd9ad;
+  font-size: 32pt !important;
+}
+
+.sticky-top {
+  color: white;
+}
+
+.left-block {
+  background-color: #242426;
+}
+
+ul.courses, ul.menu-list {
+  list-style: none;
+}
+
+.menu-item > a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-item > a:hover {
+  color: #ffb62c;
+}
+
+.contact {
+
+}
+
+.main-header {
+  font-size: 64pt;
+  line-height: 1.5;
+  letter-spacing: .5rem;
+}
+
+.rslink > img {
+  max-width: 30%;
+}
+
+.surname {
+  background: linear-gradient(to right, #fff 50%, #ffb62c 50%);
+}
+
+.profession {
+  font-size: 32pt;
+}
+
+.limiter {
+  display: inline-block;
+  height: 10px;
+  width: 70%;
+  background-color: #ffb62c;
+}
+
+.limiter.limiter-small {
+  width: 50%;
+  height: 5px;
+}
+
+.info-text::before {
+  content: "\A";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ffb62c;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.courses > li::before {
+  content: "\2022";
+  color: #ffb62c;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
